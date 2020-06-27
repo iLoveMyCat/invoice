@@ -1,4 +1,5 @@
 const config = require("./Config");
 var customer = require("./Customer");
 
-customer.Login(config.Credentials);
+// customer.LoginSOAP(config.Credentials);
+customer.LoginREST(config.Credentials);
