@@ -1,0 +1,14 @@
+{
+  "name": "invoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shalito",
+  "license": "ISC",
+  "dependencies": {
+    "soap": "^0.31.0"
+  }
+}
