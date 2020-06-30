@@ -1,5 +1,8 @@
-const config = require("./Config");
 var customer = require("./Customer");
+require("dotenv").config();
 
-// customer.LoginSOAP(config.Credentials);
-customer.LoginREST(config.Credentials);
+const creds = { email: process.env.email, password: process.env.password };
+console.log(creds);
+// customer.LoginSOAP(creds);
+
+customer.LoginREST(creds);
